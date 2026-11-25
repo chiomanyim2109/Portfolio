@@ -194,3 +194,29 @@ body::before {
     linear-gradient(var(--overlay), var(--overlay)),
     url("hero.jpeg") center / cover no-repeat;
 }
+/* Contact icons */
+.contact-icons {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.contact-icons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: var(--card-bg);
+  color: var(--accent);
+  transition: transform 0.2s;
+}
+
+.contact-icons a:hover {
+  transform: translateY(-4px);
+}
+
+.contact-icons svg {
+  width: 28px;
+  height: 28px;
+}
