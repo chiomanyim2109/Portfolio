@@ -220,4 +220,7 @@ body::before {
   width: 28px;
   height: 28px;
 }
-
+.hero .hero-meta {
+  font-size: 1rem;
+  margin-top: -1rem;
+}
